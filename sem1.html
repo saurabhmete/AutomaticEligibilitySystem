@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <link rel="stylesheet" type="text/css" href="adddata.css">
+  <title>
+      PCE Eligibility Portal
+  </title>
+  <body>
+    <div class="header">
+          <div class="header_text">Automatic Eligibility System</div>
+        </div>
+
+
+<form class="kt" action="adddata.php" method="post">
+
+  <select id ="sem" name="sem" hidden="TRUE">
+      <option value="1" selected>SEM 1</option>
+    </select>
+    <div class="addno"><br> <br>Enter Student Admission Number</div>
+
+<input type="text" id="addno" name="addno">
+
+<div class="addno"><br> <br>Enter Student Password</div>
+
+<input type="text" id="stpass" name="stpass">
+
+<h1>Enter Internal KTs</h1>
+  <input type="checkbox" name="internal[]" value="1">Applied Mathematics 1<br>
+  <input type="checkbox" name="internal[]" value="1" > Applied Physics 1 <br>
+  <input type="checkbox" name="internal[]" value="1" >Applied Chemistry 1 <br>
+  <input type="checkbox" name="internal[]" value="1" >Engineering Mechanics <br>
+  <input type="checkbox" name="internal[]" value="1" >Basic Electrical and Electronics <br>
+  <input type="checkbox" name="internal[]" value="1" >Enviromental Studies <br>
+
+
+
+
+
+
+<h1>Enter External KTs</h1>
+
+  <input type="checkbox" name="external[]" value="1">Applied Mathematics 1<br>
+  <input type="checkbox" name="external[]" value="1" > Applied Physics 1 <br>
+  <input type="checkbox" name="external[]" value="1" >Applied Chemistry 1 <br>
+  <input type="checkbox" name="external[]" value="1" >Engineering Mechanics <br>
+  <input type="checkbox" name="external[]" value="1" >Basic Electrical and Electronics <br>
+  <input type="checkbox" name="external[]" value="1" >Enviromental Studies <br>
+    <input type="checkbox" name="external[]" value="1" >WorkShop <br><br>
+<input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>

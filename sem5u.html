@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <link rel="stylesheet" type="text/css" href="adddata.css">
+  <title>
+      PCE Eligibility Portal
+  </title>
+  <body>
+    <div class="header">
+          <div class="header_text">Automatic Eligibility System</div>
+        </div>
+
+
+<form class="kt" action="updatedata.php" method="post">
+  <select id ="sem" name="sem" hidden="TRUE">
+      <option value="5" selected>SEM 5</option>
+    </select>
+    <div class="addno"><br> <br>Enter Student Admission Number</div>
+
+<input type="text" id="addno" name="addno">
+
+<div class="addno"><br> <br>Enter Student Password</div>
+
+<input type="text" id="stpass" name="stpass">
+
+<h1>Enter Internal KTs</h1>
+  <input type="checkbox" name="internal[]" value="1">SOOAD<br>
+  <input type="checkbox" name="internal[]" value="1" > CN <br>
+  <input type="checkbox" name="internal[]" value="1" >MP <br>
+  <input type="checkbox" name="internal[]" value="1" >OS <br>
+  <input type="checkbox" name="internal[]" value="1" >WT <br>
+  <input type="checkbox" name="internal[]" value="1" >BCE <br>
+
+
+
+
+
+
+<h1>Enter External KTs</h1>
+  <input type="checkbox" name="external[]" value="1">SOOAD<br>
+  <input type="checkbox" name="external[]" value="1" > CN<br>
+  <input type="checkbox" name="external[]" value="1" >MP <br>
+  <input type="checkbox" name="external[]" value="1" >OS <br>
+
+<input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
